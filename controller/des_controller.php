@@ -73,7 +73,6 @@ class des_controller{
 		//echo 'Curl error: ' . curl_error($ch);
 		curl_close($ch);
 		//var_dump($response);
-		var_dump($response);
 		$estado = $response['Results']['output1']['value']['Values'][0][11];
 		$title = "Multiclass Logistic Forest";
 		require_once 'view/header.php';

@@ -1,5 +1,4 @@
 <?php
-require_once 'bd/connection.php';
 require_once 'controller/des_controller.php';
 
 $controller = new des_controller();
