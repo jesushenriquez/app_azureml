@@ -63,54 +63,54 @@
                     <div class="input-group-addon">
                       <i class="fa fa-calendar"></i>
                     </div>
-                    <input type="text" class="form-control" data-inputmask="'alias': 'dd/mm/yyyy'" data-mask name="FNacimiento">
+                    <input type="text" required class="form-control" data-inputmask="'alias': 'dd/mm/yyyy'" data-mask name="FNacimiento">
                   </div>
                   <!-- /.input group -->
                 </div>
 
                 <div class="form-group">
                     <label for="Edad">Edad</label>
-                    <input type="number" class="form-control" placeholder="" name="Edad">
+                    <input type="number" required class="form-control" placeholder="" name="Edad">
                 </div>
 
                 <div class="form-group">
                     <label for="Semestre">Semestre</label>
-                    <input type="number" class="form-control" placeholder="" name="Semestre">
+                    <input type="number" required class="form-control" placeholder="" name="Semestre">
                 </div>
 
                 <div class="form-group">
                     <label for="ACursadas">Asignaturas Cursadas</label>
-                    <input type="number" class="form-control" placeholder="" name="ACursadas">
+                    <input type="number" required class="form-control" placeholder="" name="ACursadas">
                 </div>
 
                 <div class="form-group">
                     <label for="AAprobadas">Asignaturas Aprobadas</label>
-                    <input type="number" class="form-control" placeholder="" name="AAprobadas">
+                    <input type="number" required class="form-control" placeholder="" name="AAprobadas">
                 </div>
 
                 <div class="form-group">
                     <label for="CCursados">Creditos Cursados</label>
-                    <input type="number" class="form-control" placeholder="" name="CCursados">
+                    <input type="number" required class="form-control" placeholder="" name="CCursados">
                 </div>
 
                 <div class="form-group">
                     <label for="CAprobados">Creditos Aprobados</label>
-                    <input type="number" class="form-control" placeholder="" name="CAprobados">
+                    <input type="number" required class="form-control" placeholder="" name="CAprobados">
                 </div>
 
                 <div class="form-group">
                     <label for="PUPeriodo">Promedio del Ultimo Periodo</label>
-                    <input type="number" class="form-control" placeholder="" name="PUPeriodo">
+                    <input type="number" required step="any" class="form-control" placeholder="" name="PUPeriodo">
                 </div>
 
                 <div class="form-group">
                     <label for="PAcumulado">Promedio Acumulado</label>
-                    <input type="number" class="form-control" placeholder="" name="PAcumulado">
+                    <input type="number" required step="any" class="form-control" placeholder="" name="PAcumulado">
                 </div>
 
                 <div class="form-group">
                     <label for="Duracion">Duración</label>
-                    <input type="number" class="form-control" placeholder="" name="Duracion">
+                    <input type="number" required class="form-control" placeholder="" name="Duracion">
                 </div>
 
                 <input class="btn btn-block btn-primary btn-lg" type="submit" value="Enviar">

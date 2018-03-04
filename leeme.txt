@@ -1,0 +1,2 @@
+Para ejecutar el software basta con descomprimir colocar todo el contenido
+dentro de un servidor local como lo es XAMPP, WAMP, LAMP, etc.
